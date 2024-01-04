@@ -16,7 +16,7 @@ struct TweetRowView: View {
                     .frame(width: 56 , height: 56)
                     .foregroundColor(.blue)
                 
-                VStack(alignment: .leading){
+                VStack(alignment: .leading, spacing: 4){
                     HStack{
                         Text("Bruce Wayne")
                             .font(.subheadline).bold()
@@ -35,6 +35,46 @@ struct TweetRowView: View {
                 }
                 
             }
+            // Action Button
+            HStack{
+                Button {
+                    
+                } label: {
+                    Image(systemName: "bubble.left")
+                        .font(.subheadline)
+                }
+                Spacer()
+
+                Button {
+                    
+                } label: {
+                    Image(systemName: "arrow.2.squarepath")
+                        .font(.subheadline)
+                }
+                Spacer()
+                
+                Button {
+                    
+                } label: {
+                    Image(systemName: "heart")
+                        .font(.subheadline)
+                }
+                Spacer()
+                
+                Button {
+                    
+                } label: {
+                    Image(systemName: "bookmark")
+                        .font(.subheadline)
+                }
+                
+                
+                
+                
+            }
+            
+            
+            
         }
     }
 }
