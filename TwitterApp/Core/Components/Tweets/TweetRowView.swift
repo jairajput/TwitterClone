@@ -10,7 +10,7 @@ import SwiftUI
 struct TweetRowView: View {
     var body: some View {
         
-        VStack{
+        VStack(alignment: .leading){
             HStack(alignment: .top , spacing: 12){
                 Circle()
                     .frame(width: 56 , height: 56)
@@ -44,7 +44,7 @@ struct TweetRowView: View {
                         .font(.subheadline)
                 }
                 Spacer()
-
+                
                 Button {
                     
                 } label: {
@@ -67,15 +67,12 @@ struct TweetRowView: View {
                     Image(systemName: "bookmark")
                         .font(.subheadline)
                 }
-                
-                
-                
-                
             }
-            
+            .padding()
             
             
         }
+        .padding()
     }
 }
 
