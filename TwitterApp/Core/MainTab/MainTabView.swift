@@ -11,6 +11,8 @@ struct MainTabView: View {
     @State private var selectedIndex = 0
     var body: some View {
         TabView(selection: $selectedIndex){
+            
+            /// FeedView
             FeedView()
                 .onTapGesture {
                     self.selectedIndex = 0
@@ -18,7 +20,7 @@ struct MainTabView: View {
                 .tabItem {
                     Image(systemName: "house")
                 } .tag(0)
-            
+            ///ExploreView
             ExploreView()
                 .onTapGesture {
                     self.selectedIndex = 1
@@ -27,6 +29,7 @@ struct MainTabView: View {
                     Image(systemName: "magnifyingglass")
                 } .tag(0)
             
+            ///NotificationView
             NotificationView()
                 .onTapGesture {
                     self.selectedIndex = 1
@@ -34,7 +37,7 @@ struct MainTabView: View {
                 .tabItem {
                     Image(systemName: "bell.fill")
                 } .tag(0)
-            
+            ///MessageView
             MessagesView()
                 .onTapGesture {
                     self.selectedIndex = 3

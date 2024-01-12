@@ -9,9 +9,11 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        VStack{
+        VStack(alignment: .leading){
             headerView
             actionButtons
+            userInfoDetails
+            
             
             Spacer()
         }
@@ -73,6 +75,68 @@ extension ProfileView{
             }
         }
         .padding(.trailing)
+    }
+    
+    var userInfoDetails: some View{
+        VStack(alignment: .leading , spacing: 4){
+            HStack {
+                Text("Heath Ledger")
+                    .font(.title2).bold()
+                Image(systemName: "checkmark.seal.fill")
+                    .foregroundColor(Color(.systemBlue))
+                }
+            
+            Text("@joker")
+                .font(.subheadline)
+                .foregroundColor(.gray)
+            
+            Text("Your Moms Favourite Villan")
+                .font(.subheadline)
+                .padding(.vertical)
+            
+            
+            HStack(spacing: 32){
+                HStack(spacing: 2) {
+                    Image(systemName: "mappin.and.ellipse")
+                    Text("Gotham Ny")
+                                    
+                }
+                HStack{
+                    Image(systemName: "link")
+                    Text("www.joker.com")
+                }
+            }
+            .font(.caption)
+            .foregroundColor(.gray)
+            
+            
+            HStack(spacing: 32){
+                HStack(spacing: 2) {
+                    Text("807 " )
+                        .font(.subheadline)
+                        .bold()
+                    
+                    Text("Following")
+                        .font(.caption)
+                        .foregroundColor(.gray)
+                                    
+                }
+                HStack{
+                    Text("801 " )
+                        .font(.subheadline)
+                        .bold()
+
+                    Text("Followers")
+                        .font(.caption)
+                        .foregroundColor(.gray)
+
+
+                    
+                }
+            }
+            .padding(.vertical)
+        }
+        .padding(.horizontal)
     }
 }
 
