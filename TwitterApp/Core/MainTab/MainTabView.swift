@@ -19,7 +19,7 @@ struct MainTabView: View {
                     Image(systemName: "house")
                 } .tag(0)
             
-            FeedView()
+            ExploreView()
                 .onTapGesture {
                     self.selectedIndex = 1
                 }
@@ -27,7 +27,7 @@ struct MainTabView: View {
                     Image(systemName: "magnifyingglass")
                 } .tag(0)
             
-            FeedView()
+            NotificationView()
                 .onTapGesture {
                     self.selectedIndex = 1
                 }
@@ -35,7 +35,7 @@ struct MainTabView: View {
                     Image(systemName: "bell.fill")
                 } .tag(0)
             
-            FeedView()
+            MessagesView()
                 .onTapGesture {
                     self.selectedIndex = 3
                 }

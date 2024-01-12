@@ -14,6 +14,9 @@
 		D8C6A9FB2B4307F900C316FC /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6A9FA2B4307F900C316FC /* FeedView.swift */; };
 		D8C6A9FF2B4465CB00C316FC /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6A9FE2B4465CB00C316FC /* TweetRowView.swift */; };
 		D8E901B42B512BF600A6C372 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901B32B512BF600A6C372 /* MainTabView.swift */; };
+		D8E901B62B51305A00A6C372 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901B52B51305A00A6C372 /* ExploreView.swift */; };
+		D8E901B82B51309400A6C372 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901B72B51309300A6C372 /* NotificationView.swift */; };
+		D8E901BA2B5130E000A6C372 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901B92B5130E000A6C372 /* MessagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		D8C6A9FA2B4307F900C316FC /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		D8C6A9FE2B4465CB00C316FC /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
 		D8E901B32B512BF600A6C372 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		D8E901B52B51305A00A6C372 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		D8E901B72B51309300A6C372 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		D8E901B92B5130E000A6C372 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,7 @@
 		D8C6A9ED2B42823900C316FC /* Messages */ = {
 			isa = PBXGroup;
 			children = (
+				D8E901B92B5130E000A6C372 /* MessagesView.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -149,6 +156,7 @@
 		D8C6A9EF2B42824D00C316FC /* Notification */ = {
 			isa = PBXGroup;
 			children = (
+				D8E901B72B51309300A6C372 /* NotificationView.swift */,
 			);
 			path = Notification;
 			sourceTree = "<group>";
@@ -156,6 +164,7 @@
 		D8C6A9F02B42825700C316FC /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				D8E901B52B51305A00A6C372 /* ExploreView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -298,10 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E901BA2B5130E000A6C372 /* MessagesView.swift in Sources */,
 				D8C6A9DC2B41EAE900C316FC /* ContentView.swift in Sources */,
 				D8C6A9FF2B4465CB00C316FC /* TweetRowView.swift in Sources */,
+				D8E901B82B51309400A6C372 /* NotificationView.swift in Sources */,
 				D8C6A9FB2B4307F900C316FC /* FeedView.swift in Sources */,
 				D8C6A9DA2B41EAE900C316FC /* TwitterAppApp.swift in Sources */,
+				D8E901B62B51305A00A6C372 /* ExploreView.swift in Sources */,
 				D8E901B42B512BF600A6C372 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
