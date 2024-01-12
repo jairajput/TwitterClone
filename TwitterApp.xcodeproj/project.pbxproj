@@ -17,6 +17,7 @@
 		D8E901B62B51305A00A6C372 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901B52B51305A00A6C372 /* ExploreView.swift */; };
 		D8E901B82B51309400A6C372 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901B72B51309300A6C372 /* NotificationView.swift */; };
 		D8E901BA2B5130E000A6C372 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901B92B5130E000A6C372 /* MessagesView.swift */; };
+		D8E901BE2B51325700A6C372 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901BD2B51325700A6C372 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D8E901B52B51305A00A6C372 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		D8E901B72B51309300A6C372 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		D8E901B92B5130E000A6C372 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		D8E901BD2B51325700A6C372 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,8 @@
 		D8C6A9F22B42826900C316FC /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				D8E901BC2B51324C00A6C372 /* Views */,
+				D8E901BB2B51324400A6C372 /* ViewModels */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -235,6 +239,21 @@
 				D8C6A9FE2B4465CB00C316FC /* TweetRowView.swift */,
 			);
 			path = Tweets;
+			sourceTree = "<group>";
+		};
+		D8E901BB2B51324400A6C372 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D8E901BC2B51324C00A6C372 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8E901BD2B51325700A6C372 /* ProfileView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8E901BA2B5130E000A6C372 /* MessagesView.swift in Sources */,
+				D8E901BE2B51325700A6C372 /* ProfileView.swift in Sources */,
 				D8C6A9DC2B41EAE900C316FC /* ContentView.swift in Sources */,
 				D8C6A9FF2B4465CB00C316FC /* TweetRowView.swift in Sources */,
 				D8E901B82B51309400A6C372 /* NotificationView.swift in Sources */,
