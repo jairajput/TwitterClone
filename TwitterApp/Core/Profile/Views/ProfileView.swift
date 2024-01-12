@@ -14,6 +14,16 @@ struct ProfileView: View {
             actionButtons
             userInfoDetails
             
+            HStack{
+                ForEach(TweetFilterViewModel.allCases, id: \.rawValue) {item in
+                    
+                    VStack{
+                        Text(item.title)
+                    }
+                    
+                }
+            }
+            
             
             Spacer()
         }
