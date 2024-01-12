@@ -19,6 +19,7 @@
 		D8E901BA2B5130E000A6C372 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901B92B5130E000A6C372 /* MessagesView.swift */; };
 		D8E901BE2B51325700A6C372 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901BD2B51325700A6C372 /* ProfileView.swift */; };
 		D8E901C02B514C5700A6C372 /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901BF2B514C5700A6C372 /* TweetFilterViewModel.swift */; };
+		D8E901C52B51823C00A6C372 /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901C42B51823C00A6C372 /* UserRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D8E901B92B5130E000A6C372 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		D8E901BD2B51325700A6C372 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		D8E901BF2B514C5700A6C372 /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
+		D8E901C42B51823C00A6C372 /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		D8C6A9EC2B42822F00C316FC /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D8E901C32B51822400A6C372 /* Users */,
 				D8C6A9FC2B44659700C316FC /* Tweets */,
 			);
 			path = Components;
@@ -275,6 +278,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		D8E901C32B51822400A6C372 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				D8E901C42B51823C00A6C372 /* UserRowView.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -353,6 +364,7 @@
 				D8E901B82B51309400A6C372 /* NotificationView.swift in Sources */,
 				D8C6A9FB2B4307F900C316FC /* FeedView.swift in Sources */,
 				D8C6A9DA2B41EAE900C316FC /* TwitterAppApp.swift in Sources */,
+				D8E901C52B51823C00A6C372 /* UserRowView.swift in Sources */,
 				D8E901B62B51305A00A6C372 /* ExploreView.swift in Sources */,
 				D8E901B42B512BF600A6C372 /* MainTabView.swift in Sources */,
 			);

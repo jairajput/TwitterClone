@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ExploreView: View {
     var body: some View {
-        Text("ExploreView")
+        VStack{
+            ScrollView{
+                LazyVStack{
+                    ForEach(0 ... 25 , id: <#T##KeyPath<ClosedRange<Int>.Element, ID>#>)
+                }
+            }
+        }  
     }
 }
 
