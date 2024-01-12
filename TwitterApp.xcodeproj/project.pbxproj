@@ -168,7 +168,8 @@
 		D8C6A9F02B42825700C316FC /* Explore */ = {
 			isa = PBXGroup;
 			children = (
-				D8E901B52B51305A00A6C372 /* ExploreView.swift */,
+				D8E901C22B51807300A6C372 /* Views */,
+				D8E901C12B51806A00A6C372 /* ViewModel */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -255,6 +256,21 @@
 			isa = PBXGroup;
 			children = (
 				D8E901BD2B51325700A6C372 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D8E901C12B51806A00A6C372 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D8E901C22B51807300A6C372 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8E901B52B51305A00A6C372 /* ExploreView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
