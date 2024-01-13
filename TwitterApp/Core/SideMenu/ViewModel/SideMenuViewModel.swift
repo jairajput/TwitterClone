@@ -18,7 +18,7 @@ enum SideMenuViewModel: Int, CaseIterable{
     case logout
     
     
-    var description: String{
+    var title: String{
         switch self{
         case .profile: return "Profile"
         case .premimum: return "Premimum"
