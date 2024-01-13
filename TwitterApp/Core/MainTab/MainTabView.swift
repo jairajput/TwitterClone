@@ -27,24 +27,35 @@ struct MainTabView: View {
                 }
                 .tabItem {
                     Image(systemName: "magnifyingglass")
-                } .tag(0)
+                } .tag(1)
             
             ///NotificationView
             NotificationView()
                 .onTapGesture {
-                    self.selectedIndex = 1
+                    self.selectedIndex = 2
                 }
                 .tabItem {
                     Image(systemName: "bell.fill")
-                } .tag(0)
-            ///MessageView
-            MessagesView()
+                } .tag(2)
+            
+            
+            /// Community View
+            CommunityView()
                 .onTapGesture {
                     self.selectedIndex = 3
                 }
                 .tabItem {
+                    Image(systemName: "person.3.fill")
+                } .tag(3)
+            
+            ///MessageView
+            MessagesView()
+                .onTapGesture {
+                    self.selectedIndex = 4
+                }
+                .tabItem {
                     Image(systemName: "envelope.fill")
-                } .tag(0)
+                } .tag(4)
         }
     }
 }

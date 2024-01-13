@@ -20,6 +20,7 @@
 		D8E901BE2B51325700A6C372 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901BD2B51325700A6C372 /* ProfileView.swift */; };
 		D8E901C02B514C5700A6C372 /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901BF2B514C5700A6C372 /* TweetFilterViewModel.swift */; };
 		D8E901C52B51823C00A6C372 /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901C42B51823C00A6C372 /* UserRowView.swift */; };
+		D8E901C82B527CD800A6C372 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E901C72B527CD800A6C372 /* CommunityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		D8E901BD2B51325700A6C372 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		D8E901BF2B514C5700A6C372 /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
 		D8E901C42B51823C00A6C372 /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
+		D8E901C72B527CD800A6C372 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 		D8C6A9EE2B42824300C316FC /* Communities */ = {
 			isa = PBXGroup;
 			children = (
+				D8E901C62B527CBB00A6C372 /* Views */,
 			);
 			path = Communities;
 			sourceTree = "<group>";
@@ -286,6 +289,14 @@
 			path = Users;
 			sourceTree = "<group>";
 		};
+		D8E901C62B527CBB00A6C372 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8E901C72B527CD800A6C372 /* CommunityView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -358,6 +369,7 @@
 			files = (
 				D8E901BA2B5130E000A6C372 /* MessagesView.swift in Sources */,
 				D8E901BE2B51325700A6C372 /* ProfileView.swift in Sources */,
+				D8E901C82B527CD800A6C372 /* CommunityView.swift in Sources */,
 				D8C6A9DC2B41EAE900C316FC /* ContentView.swift in Sources */,
 				D8C6A9FF2B4465CB00C316FC /* TweetRowView.swift in Sources */,
 				D8E901C02B514C5700A6C372 /* TweetFilterViewModel.swift in Sources */,
