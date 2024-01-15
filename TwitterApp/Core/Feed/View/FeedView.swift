@@ -30,7 +30,7 @@ struct FeedView: View {
                 
             }
             .fullScreenCover(isPresented: $showNewTweetView) {
-                NewTweetView()
+                NewTweetView() 
             }
             
 
