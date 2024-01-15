@@ -12,21 +12,7 @@ struct LoginView: View {
     @State private var passsword = ""
     var body: some View {
         VStack{
-            VStack(alignment:.leading){
-                HStack{Spacer()}
-                Text("Hello")
-                    .font(.largeTitle)
-                    .fontWeight(.semibold)
-                Text("Welcome Back")
-                    .font(.largeTitle)
-                    .fontWeight(.semibold)
-                
-            }
-            .frame(height: 260)
-            .padding(.leading)
-            .background(Color(.systemBlue))
-            .foregroundColor(.white)
-            .clipShape(RoundedShape(corners: [.bottomRight]))
+            AuthHeaderView(title1: "Hello", title2: "Welcome Back")
             
             
             VStack(spacing: 40){
@@ -66,7 +52,7 @@ struct LoginView: View {
             Spacer()
             
             NavigationLink{
-                RegistrationionView()
+                RegistrationView()
                     .navigationBarHidden(true)
             }label: {
                 HStack {
