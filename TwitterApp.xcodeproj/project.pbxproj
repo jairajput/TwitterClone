@@ -81,7 +81,8 @@
 			children = (
 				D846130D2B552E3800EA7E74 /* AuthHeaderView.swift */,
 			);
-			path = Authentication;
+			name = Authentication;
+			path = Components/Authentication;
 			sourceTree = "<group>";
 		};
 		D8C6A9CD2B41EAE900C316FC = {
@@ -162,6 +163,7 @@
 				D8C6A9F42B42828000C316FC /* SideMenu */,
 				D8C6A9F32B42827200C316FC /* NewTweet */,
 				D8C6A9F22B42826900C316FC /* Profile */,
+				D846130A2B552DE900EA7E74 /* Authentication */,
 				D8C6A9F12B42825F00C316FC /* Feed */,
 				D8C6A9F02B42825700C316FC /* Explore */,
 				D8C6A9EF2B42824D00C316FC /* Notification */,
@@ -174,7 +176,6 @@
 		D8C6A9EC2B42822F00C316FC /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				D846130A2B552DE900EA7E74 /* Authentication */,
 				D8E901C32B51822400A6C372 /* Users */,
 				D8C6A9FC2B44659700C316FC /* Tweets */,
 				D8E901DA2B52D4B600A6C372 /* TextArea.swift */,
