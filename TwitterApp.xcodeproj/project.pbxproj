@@ -15,6 +15,7 @@
 		D8487F962B5CFFF90070A46E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D8487F952B5CFFF90070A46E /* FirebaseFirestore */; };
 		D8487F9A2B5CFFF90070A46E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D8487F992B5CFFF90070A46E /* FirebaseFirestoreSwift */; };
 		D8487FB02B5CFFF90070A46E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D8487FAF2B5CFFF90070A46E /* FirebaseStorage */; };
+		D8B48F642B5FC029000E026D /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B48F632B5FC029000E026D /* AuthViewModel.swift */; };
 		D8C6A9DA2B41EAE900C316FC /* TwitterAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6A9D92B41EAE900C316FC /* TwitterAppApp.swift */; };
 		D8C6A9DC2B41EAE900C316FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6A9DB2B41EAE900C316FC /* ContentView.swift */; };
 		D8C6A9DE2B41EAEA00C316FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8C6A9DD2B41EAEA00C316FC /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		D84613082B55278100EA7E74 /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
 		D846130D2B552E3800EA7E74 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 		D8487F4C2B5CF77D0070A46E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8B48F632B5FC029000E026D /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		D8C6A9D62B41EAE900C316FC /* TwitterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C6A9D92B41EAE900C316FC /* TwitterAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAppApp.swift; sourceTree = "<group>"; };
 		D8C6A9DB2B41EAE900C316FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -405,6 +407,7 @@
 		D8E901DD2B53A98600A6C372 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D8B48F632B5FC029000E026D /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -509,6 +512,7 @@
 				D8E901D92B52D2AB00A6C372 /* NewTweetView.swift in Sources */,
 				D84613092B55278100EA7E74 /* CustomInputField.swift in Sources */,
 				D8E901C52B51823C00A6C372 /* UserRowView.swift in Sources */,
+				D8B48F642B5FC029000E026D /* AuthViewModel.swift in Sources */,
 				D8E901B62B51305A00A6C372 /* ExploreView.swift in Sources */,
 				D8E901D02B52818A00A6C372 /* SideMenuViewModel.swift in Sources */,
 				D8E901DF2B53A99500A6C372 /* LoginView.swift in Sources */,
