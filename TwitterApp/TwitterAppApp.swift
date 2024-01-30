@@ -17,9 +17,11 @@ struct TwitterAppApp: App {
     }
     var body: some Scene {
         WindowGroup {
-         ContentView()
-                .environmentObject(viewModel)
-            
+            NavigationView{
+                ContentView()
+                
+            }
+            .environmentObject(viewModel)
         }
     }
 }
