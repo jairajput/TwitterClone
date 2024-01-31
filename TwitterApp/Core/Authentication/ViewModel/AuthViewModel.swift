@@ -11,7 +11,7 @@ class AuthViewModel:ObservableObject {
     @Published var  userSession : FirebaseAuth.User?
     init(){
         self.userSession = Auth.auth().currentUser
-        print("User Session is \(self.userSession)")
+        print("User Session is \(self.userSession?.uid )")
     }
     
     func login(withEmail email:String , Password:String){
@@ -20,6 +20,9 @@ class AuthViewModel:ObservableObject {
                 print("Debug: Failed to SignIn with error\(error.localizedDescription)")
                 return
             }
+            guard let user = result?.user else {return}
+            self.userSession = user
+            print("Debug: Did Log User in...")
         }
     }
     func register(withEmail email: String , password:String, fullName:String, username:String){
